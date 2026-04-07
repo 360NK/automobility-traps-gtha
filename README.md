@@ -16,6 +16,7 @@ We looked at 1,512 Census Tracts across the Toronto, Hamilton, and Oshawa CMAs t
 
 ```
 GGR376_Final_Project.ipynb   main analysis notebook
+GGR376_Final_Report.pdf      written report
 data/
   chass/           2021 Census commuting and income data (CHASS export)
   census_tracts/   StatsCan 2021 Census Tract boundaries
@@ -33,7 +34,7 @@ outputs/           GeoPackage and CSV outputs from each section
 
 The notebook was developed and run in Google Colab with Google Drive. All the outputs from that run are already embedded in the notebook, so you can open it and read through the results without running anything.
 
-If you want to re-run it in Colab, Cell 2 uses the Drive mount as written. To run it locally instead, Cell 2 has the local paths as a commented-out block you can swap in.
+If you want to re-run it locally, clone the repo and run from the root — Cell 2 uses relative paths that resolve automatically. To run it in Colab with Google Drive instead, Cell 2 has the Drive mount as a commented-out block you can swap in.
 
 Dependencies:
 ```
